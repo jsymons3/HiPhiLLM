@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Data directories (large files)
+data/acro_pdfs/
+data/flat_pdfs/
+data/processed/
+
+# Model checkpoints
+checkpoints/
+*.pth
+*.pt
+
+# Output
+output/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
